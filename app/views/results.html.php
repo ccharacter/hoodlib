@@ -140,14 +140,7 @@ $encodedHighLigtTerm = http_build_query(array('highlight'=>$searchTerm));
     <?php } else { ?>
 <div id="primary-content-wrap" class="wrap clearfix">
 <?php include("app/tile_pane.php"); ?>
-<!--	<div class="sidebar">
-		<div class="floating-div" id="sws-details">
-			<h3>Mouse over items at left to view details.</h3>
-			<h3>Click one to see its full record; to check availability, click the VIEW IN EDS link.</h3>
-			<h3>Chrome users: resource links (i.e. VIEW IN EDS) may not work in "incognito" mode.</h3>
-		</div>
-	  </div>
-</div>-->
+
  	<?php } 
 	// show full result of last item
 	//error_log(print_r($result,true),0); ?>
